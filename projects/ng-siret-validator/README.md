@@ -1,24 +1,29 @@
-# NgSiretValidator
+# ng-siret-validator
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+## About
+#### A siret validator for Angular :
 
-## Code scaffolding
+* SIRET Entreprises
+* SIRET La Poste 
+## Installation
 
-Run `ng generate component component-name --project ng-siret-validator` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ng-siret-validator`.
-> Note: Don't forget to add `--project ng-siret-validator` or else it will be added to the default project in your `angular.json` file. 
+Run the following command to install the package :
 
-## Build
+```sh
+npm install ng-siret-validator --save
+```
 
-Run `ng build ng-siret-validator` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Setup
 
-## Publishing
+You must import the validator ``` ValidateSiret ``` in your component
 
-After building your library with `ng build ng-siret-validator`, go to the dist folder `cd dist/ng-siret-validator` and run `npm publish`.
+```ts
 
-## Running unit tests
+import { ValidateSiret } from "ng-siret-validator";
 
-Run `ng test ng-siret-validator` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Further help
+ this.siretForm = this.formBuilder.group({
+      siret: ['', [Validators.required, ValidateSiret]]
+ });
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
