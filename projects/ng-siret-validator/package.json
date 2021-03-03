@@ -1,6 +1,6 @@
 {
   "name": "ng-siret-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "peerDependencies": {
     "@angular/common": "^11.2.3",
     "@angular/core": "^11.2.3"
@@ -15,5 +15,13 @@
     "entreprise",
     "la poste",
     "lunh"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbpoujol/ng-siret-validator.git"
+  },
+  "homepage": "https://github.com/jbpoujol/ng-siret-validator",
+  "url": "https://github.com/jbpoujol/ng-siret-validator/issues",
+  "email": "jbpoujol@pm.me",
+  "license": "AGPL v3"
 }

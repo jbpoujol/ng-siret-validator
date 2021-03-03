@@ -1,7 +1,7 @@
 # ng-siret-validator
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 ## About
-#### A siret validator for Angular :
+#### A simple SIRET validator for Angular :
 
 * SIRET Entreprises
 * SIRET La Poste 
