@@ -6,7 +6,7 @@ export function ValidateSiret(
   let siret: any = control.value;
   if (siret == null) return null;
   siret = siret.replace(/\s/g, '');
-  if (isNaN(siret) || siret.length != 14) return { siret: true };
+  if (isNaN(siret) || siret.length != 14 || siret == 0) return { siret: true };
 
   // SIRET de la poste
   if (siret.startsWith(356)) {
