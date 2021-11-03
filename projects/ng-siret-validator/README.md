@@ -1,5 +1,5 @@
 # ng-siret-validator
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+![NPM](https://img.shields.io/npm/l/ng-siret-validator?style=for-the-badge)
 ## About
 #### A simple SIRET validator for Angular :
 
