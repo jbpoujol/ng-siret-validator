@@ -1,10 +1,13 @@
 # ng-siret-validator
-![NPM](https://img.shields.io/npm/l/ng-siret-validator?style=for-the-badge)
 ## About
 #### A simple SIRET validator for Angular :
 
 * SIRET Entreprises
 * SIRET La Poste 
+
+## Licence
+
+![NPM](https://img.shields.io/npm/l/ng-siret-validator?style=for-the-badge)
 ## Installation
 
 Run the following command to install the package :
