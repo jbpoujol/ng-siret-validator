@@ -32,5 +32,7 @@
       }
     }
   },
-  "defaultProject": "ng-siret-validator"
+  "cli": {
+    "analytics": false
+  }
 }
